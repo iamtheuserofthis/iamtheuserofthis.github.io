@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: Projects
 title:  "Gender Detection"
 date:   2021-01-15 14:25:22 +0530
 categories: jekyll update
@@ -14,12 +14,10 @@ Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit number
 
 Jekyll also offers powerful support for code snippets:
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight python %}
+def predict(model, datataset):
+  x=a+b
+  return x
 {% endhighlight %}
 
 Check out the [gender detection][jekyll-docs] repository for more information. [Jekyll Talk][jekyll-talk].
